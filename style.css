@@ -70,3 +70,28 @@ body {
   padding: 2px;
 }
 /* End Header Section */
+/* About section  */
+#about {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+/* about-content */
+.about-content {
+  max-width: 58rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-content p {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--Primary-bg);
+}
+.first-para {
+  padding: 6rem 0 3rem;
+}
+.second-para {
+  padding: 0rem 0 5rem;
+}
+
+/* about-section End */
