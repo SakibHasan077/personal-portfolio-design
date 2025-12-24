@@ -9,3 +9,64 @@ html {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+:root {
+  --Primary-bg: #24242e;
+  --white: #fff;
+  --box-color: #7b76ca;
+}
+/* Header Section */
+#header {
+  width: 100%;
+  height: 75vh;
+  background-color: var(--Primary-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+}
+/* Logo */
+.logo a {
+  height: 8rem;
+  width: 8rem;
+  font-size: 7rem;
+  margin-top: 5rem;
+  padding: 0;
+  font-weight: 900;
+  border: 4px solid var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white);
+}
+/* heading-content */
+.heading-content h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+.heading-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+/* Icon */
+.icon {
+  margin-bottom: 3rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+.icon img {
+  width: 1.5rem;
+  padding: 2px;
+}
+/* End Header Section */
