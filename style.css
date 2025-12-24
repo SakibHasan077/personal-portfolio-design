@@ -93,5 +93,33 @@ body {
 .second-para {
   padding: 0rem 0 5rem;
 }
-
+/* What-do */
+.what-do h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--Primary-bg);
+  text-transform: uppercase;
+}
+.what-do--content {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  line-height: 1.5;
+  /* gap: .5rem; */
+  color: var(--Primary-bg);
+}
+.what-do--content h4 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.what-do--content p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
 /* about-section End */
