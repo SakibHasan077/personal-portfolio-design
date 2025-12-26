@@ -233,4 +233,18 @@ body {
   padding: 2rem 5rem;
   line-height: 1.5;
 }
+/* Cart */
+#photography .cart {
+  margin: 0 auto;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+#photography .cart-item {
+  height: 20rem;
+  width: 20rem;
+  background-color: var(--box-color);
+  text-align: center;
+  position: relative;
+}
+/* Photography End */
 /* Photography end */
