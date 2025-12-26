@@ -136,4 +136,31 @@ body {
   text-transform: uppercase;
   padding-top: 7rem;
 }
+#my-work header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#my-work header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+#my-work header nav ul li {
+  transition: all 0.1s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+}
+#my-work header nav ul li:hover {
+  border-bottom: 2px solid var(--box-color);
+}
+#my-work header nav ul li:first-of-type {
+  border-bottom: 2px solid var(--box-color);
+}
+#my-work header nav ul li a {
+  color: #c2c0c0;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
 /* my-work end */
