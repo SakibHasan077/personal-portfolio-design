@@ -43,7 +43,23 @@ body {
   font-size: 1.4rem;
   padding: 0.5rem 0;
 }
-
+.cart-btn {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0 5rem;
+}
+.cart-btn button {
+  background-color: var(--box-color);
+  border: 0;
+  color: var(--white);
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.cart-btn button:hover {
+  background-color: #625da8;
+}
 /* same-layout end */
 /* Header Section */
 #header {
