@@ -211,3 +211,25 @@ body {
   text-decoration: none;
 }
 /* my-work end */
+/* Photography */
+#photography {
+  width: 100%;
+  height: min-content;
+  background-color: var(--white);
+  color: var(--Primary-bg);
+}
+/* header  */
+#photography header h1 {
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding-top: 7rem;
+}
+#photography header p {
+  width: 60rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2rem 5rem;
+  line-height: 1.5;
+}
