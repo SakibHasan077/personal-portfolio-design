@@ -318,5 +318,10 @@ body {
   width: 5rem;
   cursor: pointer;
 }
-
+.foot-content p {
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #c5c3c3;
+  font-weight: 600;
+}
 /* footer end */
