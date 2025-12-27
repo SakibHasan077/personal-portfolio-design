@@ -280,3 +280,23 @@ body {
   text-align: center;
   line-height: 2;
 }
+.newsletter-btn input {
+  border: 0;
+  padding: 1rem 2rem;
+  outline: 0;
+  width: 25rem;
+  border-radius: 0.3rem;
+}
+.newsletter-btn button {
+  background-color: var(--box-color);
+  border: 0;
+  padding: 1rem 4rem;
+  color: var(--white);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-left: 3px;
+  transition: all 0.3s ease;
+}
+.newsletter-btn button:hover {
+  background-color: #625da8;
+}
