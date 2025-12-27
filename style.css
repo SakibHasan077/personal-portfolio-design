@@ -272,3 +272,11 @@ body {
 #newsletter .logo img {
   width: 5.5rem;
 }
+#newsletter .content {
+  padding: 0 14rem 3rem;
+}
+#newsletter .content p {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2;
+}
