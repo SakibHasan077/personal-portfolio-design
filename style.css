@@ -337,6 +337,23 @@ body {
     font-size: 4rem;
   }
   /* Header End */
+  /* About */
+  .about-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--Primary-bg);
+    width: 90%;
+    margin: auto;
+  }
+  .what-do h1 {
+    font-size: 4rem;
+  }
+  .what-do--content {
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+  }
+  /* About End */
 }
 @media (max-width: 400px) {
   /* header */
@@ -349,4 +366,26 @@ body {
     font-size: 3rem;
   }
   /* header end */
+  /* About */
+  .about-content p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: var(--Primary-bg);
+  }
+  .first-para {
+    padding-top: 5rem;
+  }
+  .second-para {
+    padding-bottom: 3rem;
+  }
+  .what-do h1 {
+    font-size: 3rem;
+  }
+  .what-do--content {
+    margin: auto;
+    flex-direction: column;
+    width: 70%;
+    padding-top: 2rem;
+  }
+  /* About End */
 }
