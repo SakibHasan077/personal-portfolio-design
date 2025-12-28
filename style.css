@@ -383,6 +383,22 @@ body {
     margin: auto;
     padding: 0 15rem;
   }
+  /* newsletter */
+  .newsletter-container {
+    margin: auto;
+    padding-top: 3.5rem;
+  }
+  #newsletter .content {
+    padding: 0 5rem 3rem;
+  }
+  .newsletter-btn input {
+    width: 20rem;
+  }
+  .newsletter-btn button {
+    padding: 1rem 3rem;
+    margin-left: 3px;
+  }
+  /* newsletter End */
 }
 @media (max-width: 400px) {
   /* header */
@@ -439,5 +455,13 @@ body {
   .cart,
   #photography .cart {
     grid-template-columns: repeat(1, 1fr);
+  }
+  /* Newsletter */
+  .newsletter-btn input {
+    width: 15rem;
+  }
+  .newsletter-btn button {
+    padding: 1rem 1.5rem;
+    margin-left: 0;
   }
 }
