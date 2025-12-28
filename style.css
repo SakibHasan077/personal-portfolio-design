@@ -362,6 +362,16 @@ body {
     gap: 2rem;
   }
   /* my-work End */
+  /* photography */
+  #photography header p {
+    margin: 0;
+    width: 100%;
+  }
+  #photography header p {
+    font-size: 1.6rem;
+    padding: 2rem 4rem;
+  }
+  /* photography End */
 }
 @media (max-width: 400px) {
   /* header */
@@ -404,4 +414,14 @@ body {
     gap: 1rem;
   }
   /* my-work */
+  /* cart  */
+  /* photography */
+  #photography header h1 {
+    font-size: 3rem;
+  }
+  #photography header p {
+    font-size: 1.4rem;
+    padding: 2rem 4rem;
+  }
+  /* photography End */
 }
