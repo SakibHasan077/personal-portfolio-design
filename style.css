@@ -354,6 +354,14 @@ body {
     width: 50%;
   }
   /* About End */
+  /* my-work */
+  #my-work header h1 {
+    font-size: 4rem;
+  }
+  #my-work header nav ul {
+    gap: 2rem;
+  }
+  /* my-work End */
 }
 @media (max-width: 400px) {
   /* header */
@@ -388,4 +396,12 @@ body {
     padding-top: 2rem;
   }
   /* About End */
+  /* my-work */
+  #my-work header h1 {
+    font-size: 3rem;
+  }
+  #my-work header nav ul {
+    gap: 1rem;
+  }
+  /* my-work */
 }
